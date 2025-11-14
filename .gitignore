@@ -1,0 +1,25 @@
+# Ignora archivos de compilación y temporales
+[Bb]in/
+[Oo]bj/
+
+# Ignora archivos específicos de Visual Studio
+*.suo
+*.user
+*.aps
+*.pdb
+*.opensdf
+*.sdf
+*.vshost.*
+
+# Ignora paquetes NuGet y carpetas de restauración
+[Pp]ackages/
+
+# Ignora la configuración de Visual Studio (si usas la carpeta .vs/)
+.vs/
+
+# Ignora cualquier otro ejecutable
+*.exe
+*.dll
+
+# Ignora logs de diagnóstico
+diaglog.xml
